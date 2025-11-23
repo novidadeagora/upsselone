@@ -79,9 +79,14 @@ const Index = () => {
 
           {/* Payment Button */}
           <div className="flex justify-center">
-            <button className="bg-fire-red hover:bg-fire-red/90 text-white font-bold text-xl px-12 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 uppercase tracking-wide">
+            <a 
+              href="https://pay.sunize.com.br/hTuQGJJo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-fire-red hover:bg-fire-red/90 text-white font-bold text-xl px-12 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 uppercase tracking-wide inline-block"
+            >
               Pagar Agora R$ 9,90
-            </button>
+            </a>
           </div>
 
           {/* Footer Info */}
