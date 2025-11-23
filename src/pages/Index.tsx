@@ -70,11 +70,18 @@ const Index = () => {
           </div>
 
           {/* Instructions */}
-          <div className="text-center">
+          <div className="text-center mb-6">
             <p className="text-lg text-foreground font-semibold">
               Por favor, efetue o pagamento agora e receba o seu reembolso em até{" "}
               <span className="text-fire-orange font-bold">5 minutos</span>.
             </p>
+          </div>
+
+          {/* Payment Button */}
+          <div className="flex justify-center">
+            <button className="bg-fire-red hover:bg-fire-red/90 text-white font-bold text-xl px-12 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 uppercase tracking-wide">
+              Pagar Agora R$ 9,90
+            </button>
           </div>
 
           {/* Footer Info */}
