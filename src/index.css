@@ -8,55 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 0 0% 10%;
+    --background: 45 60% 95%;
+    --foreground: 25 30% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card: 45 50% 98%;
+    --card-foreground: 25 30% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
+    --popover: 45 50% 98%;
+    --popover-foreground: 25 30% 15%;
 
-    --primary: 14 88% 45%;
+    --primary: 35 90% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 28 100% 50%;
-    --secondary-foreground: 0 0% 10%;
+    --secondary: 25 85% 55%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 45 40% 92%;
+    --muted-foreground: 25 20% 40%;
 
-    --accent: 45 100% 51%;
-    --accent-foreground: 0 0% 10%;
+    --accent: 45 100% 60%;
+    --accent-foreground: 25 30% 15%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 14 88% 45%;
+    --border: 35 30% 85%;
+    --input: 35 30% 85%;
+    --ring: 35 90% 50%;
 
     --radius: 0.75rem;
     
-    --fire-red: 0 72% 51%;
-    --ember-orange: 14 88% 45%;
-    --flame-gold: 45 100% 51%;
-    --charcoal: 0 0% 15%;
+    --fire-red: 25 85% 55%;
+    --ember-orange: 35 90% 50%;
+    --flame-gold: 45 100% 60%;
+    --charcoal: 25 30% 20%;
 
-    --sidebar-background: 0 0% 98%;
-
+    --sidebar-background: 45 60% 95%;
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
