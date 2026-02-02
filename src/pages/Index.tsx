@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "@/assets/touro-brasa-logo.jpg";
+import logo from "@/assets/mago-coxinhas-logo.png";
 
 const Index = () => {
   const [currentDateTime, setCurrentDateTime] = useState({
@@ -37,7 +37,7 @@ const Index = () => {
             <div className="w-48 h-48 overflow-hidden rounded-xl shadow-lg">
               <img
                 src={logo}
-                alt="Touro & Brasa Burger"
+                alt="Mago das Coxinhas"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -80,7 +80,7 @@ const Index = () => {
           {/* Payment Button */}
           <div className="flex justify-center">
             <a 
-              href="https://multi.paradisepags.com/p/pix_611ea3be8d2e"
+              href="https://www.pagamentos-seguro.link/checkout/3c1c0e22-f380-4296-98aa-26556ef0e782"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-fire-red hover:bg-fire-red/90 text-white font-bold text-xl px-12 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 uppercase tracking-wide inline-block"
